@@ -24,41 +24,42 @@ function Topbody() {
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <div class="container-fluid d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center order-lg-2">
-                                <span class="navbar-brand text-white d-lg-none me-2">Menu</span>
-                                <button class="navbar-toggler ms-2 bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02">
-                                    <span class="navbar-toggler-icon bg-white"></span>
-                                </button>
-                                <hr />
-                                <a className="cv-btn" href="./assets/doc/FreedomCV.pdf" download>
+                                <a className="cv-btn me-4" href="./assets/doc/FreedomCV.pdf" download>
                                     <button>Download CV</button>
                                 </a>
+                                <hr />
+                                <span class="navbar-brand text-white d-lg-none me-1">Menu</span>
+                                <button class="navbar-toggler ms-2 bg-white p-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02">
+                                    <span class="navbar-toggler-icon bg-white "></span>
+                                </button>
+
                             </div>
                             <div class="collapse navbar-collapse order-lg-1" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active text-white w-1" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contact</a>
-                        </li>
-                    </ul>
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ps-4">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-white w-1" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Skills</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Contact</a>
+                                    </li>
+                                </ul>
 
 
-                </div>
+                            </div>
                         </div>
                     </nav>
 
                 </header>
-                
+
 
                 <div className="profile">
                     <div className="photo">

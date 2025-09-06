@@ -174,7 +174,7 @@ header>h3>span {
   border-radius: 5px;
   padding: 10px;
 }
-.buttons>button {
+.buttons>a>button {
   padding: 4px 10px;
   border: 1px solid white;
   border-radius: 3px;

@@ -91,8 +91,8 @@ function Topbody() {
                             </div>
                         </div>
                         <div className="buttons">
-                            <button className="hire-me">Hire Me</button>
-                            <button className="contact-me">Contact Me</button>
+                            <a href="mailto:freedomjames06@gmail.com?subject=Project Inquiry"> <button className="hire-me">Hire Me</button> </a>
+                            <a href="https://wa.me/+2349035125317"> <button className="contact-me">Contact Me</button> </a>
                         </div>
                     </div>
                 </div>

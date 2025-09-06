@@ -24,7 +24,7 @@ function Topbody() {
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <div class="container-fluid d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center order-lg-2">
-                                <a className="cv-btn me-4" href="./assets/doc/FreedomCV.pdf" download>
+                                <a className="cv-btn me-4" href="./assets/doc/FreedomCV.pdf" download="FreedomCV.pdf">
                                     <button>Download CV</button>
                                 </a>
                                 <hr />

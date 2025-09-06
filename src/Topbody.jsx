@@ -17,7 +17,7 @@ function Topbody() {
 
     return (
         <>
-            <div className="top-Container">
+            <div data-aos="fade-up" data-aos-duration="5000" className="top-Container">
                 <header>
                     <h3>Port<span>folio</span></h3>
 

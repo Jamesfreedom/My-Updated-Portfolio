@@ -3,12 +3,12 @@ function Algorithm() {
 
     let count = 0;
     if (count = 0) {
-        
+
     }
 
     return (
         <>
-            <div className="rate">
+            <div data-aos="fade-up" className="rate">
                 <div>
                     <div className="rating-numbers">
                         <h1 id="experience">2</h1><span>+</span>

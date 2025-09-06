@@ -75,19 +75,19 @@ function Topbody() {
                         <p>A passionate Front-end developer that focuses on creating responsive websites that resolves issues.</p>
                         <div className="media">
                             <div className="fb">
-                                <div className="fb-icon"></div>
+                                <a href="https://www.facebook.com/freekeyz.jamesii" target="_blank"> <div className="fb-icon"></div> </a>
                             </div>
                             <div className="x">
-                                <div className="x-icon"></div>
+                                <a href="https://x.com/freedomjames_/"> <div className="x-icon"></div> </a>
                             </div>
                             <div className="ig">
-                                <div className="ig-icon"></div>
+                                <a href="https://www.instagram.com/freedomjames_/" target="_blank"> <div className="ig-icon"></div> </a>
                             </div>
                             <div className="lin">
-                                <div className="lin-icon"></div>
+                                <a href="https://ng.linkedin.com/in/freedom-james-echendu"> <div className="lin-icon"></div> </a>
                             </div>
                             <div className="git">
-                                <div className="git-icon"></div>
+                                <a href="https://github.com/Jamesfreedom?tab=repositories"> <div className="git-icon"></div> </a>
                             </div>
                         </div>
                         <div className="buttons">

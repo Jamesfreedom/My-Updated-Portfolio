@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   --Dim-blue: #001830;
   --Light-blue: #00aaf8;
@@ -37,14 +39,7 @@ header>h3>span {
     height: auto;
     z-index: 1050;    /* sit on top of buttons */
     padding: 1rem;
-    /* background-color: #00dcee; */
   }
-  /* .navbar-nav {
-    background-color: #00dcee;
-  }
-  .navbar-nav>li {
-    background-color: #00dcee;
-  } */
 }
 
 .collapse>ul>li>a:hover {

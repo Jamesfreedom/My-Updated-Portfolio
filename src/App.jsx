@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Topbody from "./Topbody"
 import Bottombody from "./Bottombody"
-import Algorithm from "./Algorithm"
+import Footer from "./Footer"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -18,7 +18,7 @@ function App() {
     <>
       <Topbody />
       <Bottombody />
-      <Algorithm />
+      <Footer />
     </>
   )
 }

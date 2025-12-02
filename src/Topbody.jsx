@@ -49,8 +49,8 @@ function Topbody() {
             <div data-aos="fade-up" data-aos-duration="5000" className="top-Container">
                 <header>
 
-                    <nav class="navbar navbar-light fixed-top">
-                        <div class="container-fluid">
+                    <nav className="navbar navbar-light fixed-top">
+                        <div className="container-fluid">
                             <div className="d-flex align-items-center text-white">
                                 <div className="img-logo-img"></div>
                                 <div className="ms-2">
@@ -58,30 +58,30 @@ function Topbody() {
                                     <div className="location">Port Harcourt, Nigeria</div>
                                 </div>
                             </div>
-                            <button class="navbar-toggler p-1 bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                                <span class="navbar-toggler-icon bg-white"></span>
+                            <button className="navbar-toggler p-1 bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <span className="navbar-toggler-icon bg-white"></span>
                             </button>
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                                <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">My Portfolio</h5>
-                                    <button type="button" class="btn-close bg-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                                <div className="offcanvas-header">
+                                    <h5 className="offcanvas-title text-white" id="offcanvasNavbarLabel">My Portfolio</h5>
+                                    <button type="button" className="btn-close bg-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
-                                <div class="offcanvas-body">
-                                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ps-4">
-                                        <li class="nav-item">
-                                            <a class="nav-link active text-white w-1" aria-current="page" href="#">Home</a>
+                                <div className="offcanvas-body">
+                                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ps-4">
+                                        <li className="nav-item">
+                                            <a className="nav-link active text-white w-1" aria-current="page" href="#">Home</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link text-white" href="#">About</a>
+                                        <li className="nav-item">
+                                            <a className="nav-link text-white" href="#">About</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link text-white" href="#skills">Skills</a>
+                                        <li className="nav-item">
+                                            <a className="nav-link text-white" href="#skills">Skills</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link text-white" href="#">Services</a>
+                                        <li className="nav-item">
+                                            <a className="nav-link text-white" href="#">Services</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link text-white" href="./contact_me.php">Contact</a>
+                                        <li className="nav-item">
+                                            <a className="nav-link text-white" href="./contact_me.php">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -94,10 +94,10 @@ function Topbody() {
 
                 <div className="profile mt-5">
                     <div>
-                        <p className="fs-1">
+                        <div className="fs-1">
                             Meet FJ: <br />
                             <p className="skills">{text} </p>
-                        </p>
+                        </div>
                     </div>
                     <div className="profile-details">
                         <div className="photo">

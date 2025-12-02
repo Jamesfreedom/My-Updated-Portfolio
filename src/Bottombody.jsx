@@ -4,8 +4,24 @@ function Bottombody() {
     return (
 
         <>
+            <div id="skills">
+                <h5 className="text-white text-center">My Skills</h5>
+                <div className="bottom-container">
+                    <div className="frontend">
+                        <div className="web-icon"></div>
+                        <h3>Frontend Web Development</h3>
+                        <p>React.Js, JavaScript, Bootstrap, Tailwindcss, HTML, CSS</p>
+                    </div>
+                    <div className="editing">
+                        <div className="edit-icon"></div>
+                        <h3>Photo Editing</h3>
+                        <p>Lightroom, Photoshop, etc...</p>
+                    </div>
+                </div>
+            </div>
+
             <div className="my-projects">
-                <h5>Project / Work / Challenge</h5>
+                <h5 className="my-3 text-center">Project / Work / Challenge</h5>
                 <div className="work">
                     <div>
                         <div className="img-one"></div>
@@ -90,52 +106,49 @@ function Bottombody() {
                     <h5>My Interests</h5>
                     <p>What inspires me beyond work, also what inspires behind every work:</p>
                     <div className="interest">
-                        <div>
-                            <div className="interest-img-one"></div>
+                        <div className="int">
+                            <div className="rounded row">
+                                <div className="interest-flex d-flex overflow-auto">
+                                    <img className="rounded-4 me-4" src="./src/assets/image/IMG-20250323-WA0041.jpg" alt="" />
+                                    <img className="rounded-4 me-4" src="./src/assets/image/AirBrush_20250311224412~2.jpg" alt="" />
+                                    <img className="rounded-4 me-4" src="./src/assets/image/IMG_20241225_100821~2.jpg" alt="" />
+                                    <img className="rounded-4 me-4" src="./src/assets/image/IMG_20240714_110133.jpg" alt="" />
+                                    <img className="rounded-4" src="./src/assets/image/IMG_20240714_105940.jpg" alt="" />
+                                </div>
+                            </div>
                             <div className="interest-details">
-                                <p>Music</p>
+                                <p>Music/Concert</p>
                                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum officiis molestiae ullam expedita perferendis explicabo dicta eos! Repudiandae laborum ratione veritatis, explicabo quaerat facilis, dolorem itaque molestias dignissimos laudantium aut.</div>
                             </div>
                         </div>
-                        <div>
-                            <div className="interest-img-one"></div>
+                        <div className="int">
+                            <div className="rounded row">
+                                <div className="interest-flex d-flex overflow-auto">
+                                    <img className="rounded-4 me-4" src="./src/assets/image/9ae191acb093410887896b10eeb404f9.jpg" alt="" />
+                                    <img className="rounded-4 me-4" src="./src/assets/image/0b5059b741b9492786c7b54c805dd3a2.jpg" alt="" />
+                                    <img className="rounded-4 me-4" src="./src/assets/image/822c2073bf9f44e28d759890b0b221de.jpg" alt="" />
+                                    <img className="rounded-4 me-4" src="./src/assets/image/5bb1b054d448438ba1fd50cd3dfbfa0c.jpg" alt="" />
+                                    <img className="rounded-4" src="./src/assets/image/d203835751c94826baaf94eb8df16013.jpg" alt="" />
+                                </div>
+                            </div>
                             <div className="interest-details">
                                 <p>Dance</p>
                                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum officiis molestiae ullam expedita perferendis explicabo dicta eos! Repudiandae laborum ratione veritatis, explicabo quaerat facilis, dolorem itaque molestias dignissimos laudantium aut.</div>
                             </div>
                         </div>
-                        <div>
-                            <div className="interest-img-one"></div>
-                            <div className="interest-details">
-                                <p>Concerts</p>
-                                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum officiis molestiae ullam expedita perferendis explicabo dicta eos! Repudiandae laborum ratione veritatis, explicabo quaerat facilis, dolorem itaque molestias dignissimos laudantium aut.</div>
-                            </div>
-                        </div>
                     </div>
-                </div>
-
-            </div>
-
-            <div className="bottom-container">
-                <div className="frontend">
-                    <div className="web-icon"></div>
-                    <h3>Frontend Web Development</h3>
-                    <p>React.Js, JavaScript, Bootstrap, Tailwindcss, HTML, CSS</p>
-                </div>
-                <div className="editing">
-                    <div className="edit-icon"></div>
-                    <h3>Photo Editing</h3>
-                    <p>Lightroom, Photoshop, etc...</p>
                 </div>
             </div>
 
             <div className="connect">
-                <p>Let's work together!</p>
-                <h4>Got a brand to build? Let's create something real meaningful.</h4>
-                <a className="cv-btn me-4" href="./assets/doc/FreedomCV.pdf">
-                    <button>VIEW MY CV</button>
-                </a>
-                <button>CONTACT ME</button>
+                <div>
+                    <p>Let's work together!</p>
+                    <h4>Got a brand to build? Let's create something real meaningful.</h4>
+                    <a className="cv-btn me-4" href="./assets/doc/FreedomCV.pdf">
+                        <button>VIEW MY CV</button>
+                    </a>
+                    <button>CONTACT ME</button>
+                </div>
             </div>
 
 
@@ -143,4 +156,4 @@ function Bottombody() {
     );
 }
 
-export default Bottombody
+export default Bottombody;

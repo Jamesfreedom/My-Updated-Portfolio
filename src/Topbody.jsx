@@ -4,11 +4,11 @@ import React, { useEffect, useState } from "react";
 function Topbody() {
 
     const skills = [
-        "Front-end Web Developer",
+        "Full-Stack Web Developer",
         "Photo Editor",
         "Cartoon Animator",
         "Community Strategist",
-        "Script Writer",
+        "Content Writer",
     ];
 
     const [index, setIndex] = useState(0);
@@ -48,47 +48,43 @@ function Topbody() {
         <>
             <div data-aos="fade-up" data-aos-duration="5000" className="top-Container">
                 <header>
-                    <div>
-                        <div className="img-logo-img"></div>
-                        <div>
-                            <p><span>Freedom</span> James</p>
-                            <p className="location">Port Harcourt, Nigeria</p>
-                        </div>
-                    </div>
 
-                    <nav className="navbar navbar-expand-lg navbar-light">
-                        <div class="container-fluid d-flex justify-content-between align-items-center">
-                            <div class="d-flex align-items-center order-lg-2">
-                                <a className="cv-btn me-4" href="./assets/doc/FreedomCV.pdf" download="FreedomCV.pdf">
-                                    <button>Download CV</button>
-                                </a>
-                                <hr />
-                                <span class="navbar-brand text-white d-lg-none me-1">Menu</span>
-                                <button class="navbar-toggler ms-2 bg-white p-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02">
-                                    <span class="navbar-toggler-icon bg-white "></span>
-                                </button>
-
+                    <nav class="navbar navbar-light fixed-top">
+                        <div class="container-fluid">
+                            <div className="d-flex align-items-center text-white">
+                                <div className="img-logo-img"></div>
+                                <div className="ms-2">
+                                    <div><span>Freedom</span> James</div>
+                                    <div className="location">Port Harcourt, Nigeria</div>
+                                </div>
                             </div>
-                            <div class="collapse navbar-collapse order-lg-1" id="navbarTogglerDemo02">
-                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ps-4">
-                                    <li class="nav-item">
-                                        <a class="nav-link active text-white w-1" aria-current="page" href="#">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="#">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="#">Skills</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="#">Services</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="#">Contact</a>
-                                    </li>
-                                </ul>
-
-
+                            <button class="navbar-toggler p-1 bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <span class="navbar-toggler-icon bg-white"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">My Portfolio</h5>
+                                    <button type="button" class="btn-close bg-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ps-4">
+                                        <li class="nav-item">
+                                            <a class="nav-link active text-white w-1" aria-current="page" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="#">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="#skills">Skills</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="#">Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="./contact_me.php">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </nav>
@@ -96,11 +92,11 @@ function Topbody() {
                 </header>
 
 
-                <div className="profile">
+                <div className="profile mt-5">
                     <div>
                         <p className="fs-1">
-                            Meet FJ: <br /> 
-                            <p className="skills">{text} </p>                          
+                            Meet FJ: <br />
+                            <p className="skills">{text} </p>
                         </p>
                     </div>
                     <div className="profile-details">
@@ -116,7 +112,7 @@ function Topbody() {
                                     <a href="https://www.facebook.com/freekeyz.jamesii" target="_blank"> <div className="fb-icon"></div> </a>
                                 </div>
                                 <div className="x">
-                                    <a href="https://x.com/freedomjames_/"> <div className="x-icon"></div> </a>
+                                    <a href="https://x.com/Official_EFJ/"> <div className="x-icon"></div> </a>
                                 </div>
                                 <div className="ig">
                                     <a href="https://www.instagram.com/freedomjames_/" target="_blank"> <div className="ig-icon"></div> </a>

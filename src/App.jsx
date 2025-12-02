@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import Topbody from "./Topbody"
-import Bottombody from "./Bottombody"
-import Footer from "./Footer"
+import Topbody from "./Topbody";
+import Bottombody from "./Bottombody";
+import Footer from "./Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

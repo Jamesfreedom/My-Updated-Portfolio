@@ -9,7 +9,7 @@ function Footer() {
     return (
         <>
             <footer data-aos="fade-up" className="footer">
-                &copy; 2025, All rights reserved.
+                &copy; 2025 Freedom James, All rights reserved.
             </footer>
         </>
     )

@@ -11,7 +11,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #001830;
+  background-color: var(--Dim-blue);
 }
 
 body {
@@ -84,20 +84,24 @@ header>div p>span {
 
 .cv-btn button {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 10px;
   color: white;
-  background-color: rgb(177, 1, 30);
+  background-color: var(--Light-blue);
   border: none;
   padding: 4px 10px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.4s ease, transform 0.3s ease;
   font-size: 13px;
+  color: black;
+  font-weight: 500;
+  margin-top: 13px;
 }
 
 .cv-btn button:hover {
   background-color: rgb(135, 0, 23);
   transform: scale(1.03);
+  color: white;
 }
 
 .profile {
@@ -323,6 +327,10 @@ header>div p>span {
   border-radius: 10px;
 }
 
+.skill-summary {
+  background-color: #000e1c;
+}
+
 .my-projects {
   color: white;
   padding: 0px 20px;
@@ -488,6 +496,123 @@ header>div p>span {
   border-radius: 15px;
 }
 
+.click-one {
+  background-image: url("./assets/arrow-up-right-from-square-svgrepo-com.svg");
+  height: 20px;
+  width: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 501px) {
+  .certificates {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 500px) {
+  .certificates {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 900px) {
+  .frontend-stack {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+.frontend-cert {
+  background-image: url("./assets/image/Frontend-Certification.jpeg");
+  height: 300px;
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+  box-shadow: inset 0 -50px 100px -50px rgb(49, 49, 49) !important;
+}
+
+.backend-cert {
+  background-image: url("./assets/image/Backend-Certification.jpeg");
+  height: 300px;
+  /* background-position: c; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+  box-shadow: inset 0 -50px 100px -50px rgb(49, 49, 49) !important;
+}
+@media screen and (max-width: 700px) {
+  .backend-stack, .frontend-stack {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .cpn-id {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .cert-btn {
+    display: flex;
+    gap: 15px;
+  }
+}
+/* @media screen and (min-width: 500px) {
+  .frontend-stack {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+} */
+
+.frontend-skills span, .backend-skills span {
+  background-color: var(--Light-blue);
+  color: var(--Dim-blue);
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 13px;
+  border-radius: 10px;
+}
+.frontend-skills div:last-child, .backend-skills div:last-child {
+  margin-top: 15px;
+}
+.view-cert, .dwn-cert {
+  background-color: var(--Light-blue);
+  padding: 2px 25px;
+  border-radius: 10px;
+  position: relative;
+  transition: background-color 0.5s ease;
+  z-index: 0;
+  color: white;
+}
+
+.view-cert::before, .dwn-cert::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--Dim-blue);
+  transition: width 0.5s ease;
+  z-index: -1;
+}
+
+.view-cert:hover, .dwn-cert:hover {
+  color: var(--Light-blue);
+}
+
+.view-cert:hover:before, .dwn-cert:hover:before {
+  width: 100%;
+}
+
+
 .my-interest {
   padding: 50px 1px;
 }
@@ -497,9 +622,6 @@ header>div p>span {
 }
 
 .interest {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
   /* overflow: hidden; */
   margin-top: 30px;
 }
@@ -517,9 +639,23 @@ header>div p>span {
 /* .int {
   background-color: #000e1c;
 } */
+ @media screen and (max-width: 600px) {
+  .int {
+    display: flex;
+    flex-direction: column;
+  }
+ }
+
+  @media screen and (min-width: 601px) {
+  .int {
+    display: flex;
+    flex-direction: row;
+  }
+ }
+
 .interest-flex {
-  width: 150px;
-  height: 200px;
+  width: 90px;
+  height: 140px;
   border-radius: 15px;
 }
 
@@ -529,7 +665,7 @@ header>div p>span {
 
 .interest-details {
   padding: 20px;
-  border-radius: 0px 0px 20px 20px;
+  /* border-radius: 0px 0px 20px 20px; */
   /* border: 20px solid #000e1c; */
 }
 
@@ -542,7 +678,7 @@ header>div p>span {
   /* background-color: #000e1c; */
 }
 
-.web-icon {
+/* .web-icon {
   background-image: url("./assets/code-svgrepo-com.svg");
   height: 50px;
   width: 40px;
@@ -558,7 +694,7 @@ header>div p>span {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-}
+} */
 
 .connect {
   color: white;
@@ -610,8 +746,40 @@ footer {
     grid-template-columns: repeat(1, 1fr);
   }
 
+
   .bottom-container>div>p {
     font-size: 15px;
   }
 
+}
+.email {
+  background-image: url("./assets/email-18-svgrepo-com.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 28px;
+}
+.twitter {
+  background-image: url("./assets/twitter-boxed-svgrepo-com.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 27px;
+}
+.telegram {
+  background-image: url("./assets/telegram-alt-svgrepo-com.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30px;
+}
+.discord {
+  background-image: url("./assets/discord-svgrepo-com.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30px;
+}
+.get-in-touch {
+  background-color: #000e1c;
 }

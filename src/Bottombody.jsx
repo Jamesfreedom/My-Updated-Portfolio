@@ -181,7 +181,7 @@ function Bottombody() {
                                 <h3>Level 3 in Frontend Web Development</h3>
                                 <small>Computer Professionals Registration Council of Nigeria</small>
                                 <div className="cpn-id d-flex justify-between">
-                                    <small>November 28th, 2025</small>
+                                    <small>November 3rd, 2025</small>
                                     <small>CPN/NSQ/24121740</small>
                                 </div>
                                 <div className="frontend-stack mt-3 mb-3">
@@ -203,7 +203,7 @@ function Bottombody() {
                                 <h3>Level 3 in Backend Web Development</h3>
                                 <small>Computer Professionals Registration Council of Nigeria</small>
                                 <div className="cpn-id d-flex justify-between">
-                                    <small>November 28th, 2025</small>
+                                    <small>November 3rd, 2025</small>
                                     <small>CPN/NSQ/24121810</small>
                                 </div>
                                 <div className="backend-stack mt-3 mb-3">
@@ -227,18 +227,17 @@ function Bottombody() {
                     <p>What inspires me beyond work, also what inspires behind every work:</p>
                     <div className="interest">
                         <div className="int align-items-center gap-4">
-                            <div className="rounded row overflow-hidden w-100">
-                                <div className="interest-flex d-flex overflow-auto">
-                                    <img className="rounded-4 me-4" src="./src/assets/image/IMG-20250323-WA0041.jpg" alt="" />
-                                    <img className="rounded-4 me-4" src="./src/assets/image/AirBrush_20250311224412~2.jpg" alt="" />
-                                    <img className="rounded-4 me-4" src="./src/assets/image/IMG_20241225_100821~2.jpg" alt="" />
-                                    <img className="rounded-4 me-4" src="./src/assets/image/IMG_20240714_110133.jpg" alt="" />
-                                    <img className="rounded-4 me-4" src="./src/assets/image/IMG_20240714_105940.jpg" alt="" />
-                                    <img className="rounded-4 me-4" src="./src/assets/image/9ae191acb093410887896b10eeb404f9.jpg" alt="" />
-                                    <img className="rounded-4 me-4" src="./src/assets/image/0b5059b741b9492786c7b54c805dd3a2.jpg" alt="" />
-                                    <img className="rounded-4 me-4" src="./src/assets/image/822c2073bf9f44e28d759890b0b221de.jpg" alt="" />
-                                    <img className="rounded-4 me-4" src="./src/assets/image/5bb1b054d448438ba1fd50cd3dfbfa0c.jpg" alt="" />
-                                    <img className="rounded-4" src="./src/assets/image/d203835751c94826baaf94eb8df16013.jpg" alt="" />
+                            <div className="rounded">
+                                <div className="interest-flex">
+                                    <div className="int-img-one rounded-4"></div>
+                                    <div className="int-img-two rounded-4"></div>
+                                    <div className="int-img-three rounded-4"></div>
+                                    <div className="int-img-four rounded-4"></div>
+                                    <div className="int-img-five rounded-4"></div>
+                                    <div className="int-img-six rounded-4"></div>
+                                    <div className="int-img-seven rounded-4"></div>
+                                    <div className="int-img-eight rounded-4"></div>
+                                    <div className="int-img-nine rounded-4"></div>
                                 </div>
                             </div>
                             <div className="interest-details">
@@ -264,7 +263,7 @@ function Bottombody() {
                                         <a href="mailto:freedomjames06@gmail.com?subject=" target="_blank" className="get-in-touch text-decoration-none">
                                             <small className="text-sky-400 font-bold get-in-touch">Email</small>
                                         </a>
-                                        <small className="get-in-touch">freedomjames06@gmail.com</small>
+                                        <small className="git-txt get-in-touch">freedomjames06@gmail.com</small>
                                     </div>
                                 </div>
                             </div>
@@ -276,7 +275,7 @@ function Bottombody() {
                                         <a href="https://x.com/BillionaireFJ" target="_blank" className="get-in-touch text-decoration-none">
                                             <small className="text-sky-400 font-bold get-in-touch">X</small>
                                         </a>
-                                        <small className="get-in-touch">@BillionaireFJ</small>
+                                        <small className="git-txt get-in-touch">@BillionaireFJ</small>
                                     </div>
                                 </div>
                             </div>
@@ -288,7 +287,7 @@ function Bottombody() {
                                         <a href="" target="_blank" className="get-in-touch text-decoration-none">
                                             <small className="text-sky-400 font-bold get-in-touch">Telegram</small>
                                         </a>
-                                        <small className="get-in-touch">@freedomjames</small>
+                                        <small className="git-txt get-in-touch">@freedomjames</small>
                                     </div>
                                 </div>
                             </div>
@@ -300,7 +299,7 @@ function Bottombody() {
                                         <a href="" target="_blank" className="get-in-touch text-decoration-none">
                                             <small className="text-sky-400 font-bold get-in-touch">Discord</small>
                                         </a>
-                                        <small className="get-in-touch">@freedomjames1</small>
+                                        <small className="git-txt get-in-touch">@freedomjames1</small>
                                     </div>
                                 </div>
                             </div>
